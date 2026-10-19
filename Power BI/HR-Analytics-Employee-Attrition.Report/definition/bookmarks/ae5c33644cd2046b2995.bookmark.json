@@ -1,0 +1,824 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Button",
+  "name": "ae5c33644cd2046b2995",
+  "options": {
+    "targetVisualNames": [],
+    "preserveNewVisualVisibility": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "4717f692995770950403",
+    "sections": {
+      "4717f692995770950403": {
+        "visualContainers": {
+          "5516ad95ce01f4e25f3b": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1cad1edabbe431407ff8",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Main Dashboard"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "baa1b47062ad8f1345ac": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4316da7ae4aa3d74a547",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Average Monthly Income"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Average Monthly Income"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "071c3e39717f08efb919": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "2d9f47bfb41f8731fd86",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Average Tenure"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Average Tenure"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "7b7c1e0fdf83113fc3d6": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ad76fba35fbd8fd9e710",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "936c67a3a42e130bbf56": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "e47d1e5fa746392eb5f4",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Total Employees"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Total Employees"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "e55ebcceb11eb02ff5b6": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "309b8800e26736020f1c",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Employees_left"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Employees_left"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "a94a2cca7cb8701ea23c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "db52529251f8d13fcac8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Department"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "22f455cd4ad5574dae28",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Employees_left"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Employees_left"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Department"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "b8c9b2c52dd21907e4d9": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "562b379e037f8d64d89b",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "JobRole"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "8a5aa3294f8ebf9ec4a2",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Employees_left"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Employees_left"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "JobRole"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "1ee73a0fdebfe72c886d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "7ce6cdd9ceb9d6fa8c8b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "JobSatisfaction"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "dec732840b4a6dcfb3c9",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "JobSatisfaction"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "46df143dacefb88f68f5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "d041ebd2a11352775222",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "56f1914c74e806afba18",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "WorkLifeBalance"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "WorkLifeBalance"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c49d1d78ffed104ea592": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "60aee875e9e8c38056dc",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Department"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Department"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "49706fba1915b4119844": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "8457aadc3b8ec6d13d88",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "JobRole"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "JobRole"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "e57d667bf54390cffb43": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f4095bc7512a4e3d483d",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Gender"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Gender"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "256ae3f2195f561b50e9": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "b3dd68c624761345b7a9",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Age Group"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e40ae6c6fd4a93772845",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Age Group"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "6de19ef774cef67952cb": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "574d7f6bd212c62135e8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "monthly_income_groups"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "54977b07f700a716d2cd",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "Attrition_rate"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hr_attrition_clean"
+                        }
+                      },
+                      "Property": "monthly_income_groups"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "objects": {}
+  }
+}

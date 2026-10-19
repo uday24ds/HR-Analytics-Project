@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "49706fba1915b4119844",
+  "position": {
+    "x": 12.828507795100222,
+    "y": 143.25167037861914,
+    "z": 11000,
+    "height": 53.4521158129176,
+    "width": 194.56570155902006,
+    "tabOrder": 11000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hr_attrition_clean"
+                    }
+                  },
+                  "Property": "JobRole"
+                }
+              },
+              "queryRef": "hr_attrition_clean.JobRole",
+              "nativeQueryRef": "JobRole",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "5516ad95ce01f4e25f3b",
+  "position": {
+    "x": 12.828507795100222,
+    "y": 17.104677060133628,
+    "z": 0,
+    "height": 121.87082405345211,
+    "width": 1719.0200445434298,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hr_attrition_clean"
+                    }
+                  },
+                  "Property": "Main Dashboard"
+                }
+              },
+              "queryRef": "hr_attrition_clean.Main Dashboard",
+              "nativeQueryRef": "Main Dashboard"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
